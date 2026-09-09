@@ -1,3 +1,37 @@
-data/
+# =========================
+# Entornos Virtuales de Python
+# =========================
 .venv/
+venv/
+env/
+
+# =========================
+# Caché y compilados de Python
+# =========================
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Entornos de Desarrollo (IDEs)
+# =========================
+# PyCharm / JetBrains 
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# =========================
+# Archivos del Sistema Operativo
+# =========================
+# windows o macOS
+.DS_Store
+Thumbs.db
